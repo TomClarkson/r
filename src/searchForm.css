@@ -1,0 +1,31 @@
+h6 {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #555;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+button {
+	background: none;
+	border: 1px solid #333;
+	border-radius: 8px;
+	padding: 14px;
+	margin-right: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input {
+	font-size: 16px;
+	display: block;
+	padding: 15px;
+	border-radius: 8px;
+	border: 1px solid #333;
+	margin-bottom: 10px;
+}
+
+button.selected {
+	color: #fff;
+	background: #93a4aa;
+}

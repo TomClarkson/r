@@ -1,0 +1,9 @@
+.resultsHeader {
+	margin-top: 0px;
+	font-size: 28px;
+}
+
+.searchFailed {
+	color: red;
+	font-weight: bold;
+}
