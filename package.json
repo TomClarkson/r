@@ -8,7 +8,7 @@
     "client:start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "prettier": "prettier",
+    "prettier": "prettier --write --single-quote --trailing-comma es5 \"*.js\" \"src/**/*.js\"",
     "dev": "concurrently --kill-others \"npm run client:start\" \"npm run server:start\""
   },
   "repository": {
